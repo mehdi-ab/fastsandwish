@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  
+}
+
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -3.5rem;
+}
+
+
+/*============= Navigation SECTION =============*/
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(255, 0, 0, 0.9)!important;
+}
+
+.navbar-nav li {
+  padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: 0.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #F6BB06;
+}
+
+/*============= Landing SECTION =============*/
+ #carouselPromo{
+   background: rgba(0, 0, 0, 0.9)!important;
+   color: white;
+   padding: 90px;
+   width: 100%;
+   height: 100%;
+   background-size: cover;
+   background-position: center center;
+   -webkit-transform: translateZ(0);
+           transform: translateZ(0);
+   will-change: transform;
+ }
+
+
+/*============= Sadwich SECTION =============*/
+#sandwich  {
+  padding: 20px;
+  margin-top: 100px
+}
+
+.logo-sandwich{
+  align-items: center;
+  align-content: center;
+}
+
+/*============= Menu SECTION =============*/
+#menu {
+  padding: 20px;
+  margin-top: 100px;
+
+}
+
+/*============= Salades SECTION =============*/
+
+#salade {
+  padding: 20px;
+  margin-top: 100px;
+
+}
+
+/*============= Boissons SECTION =============*/
+
+#boisson {
+  padding: 20px;
+  margin-top: 100px;
+
+}
+
+/*============= Desserts SECTION =============*/
+
+#dessert {
+  padding: 20px;
+  margin-top: 100px;
+
+}
+
+/*============= Contact SECTION =============*/
+
+#contact {
+  padding: 20px;
+  margin-top: 100px;
+
+}
+
+/*============= Connexion SECTION =============*/
+
+#connexion {
+  padding: 20px;
+  margin-top: 100px;
+
+}
+
+/*============= Panier SECTION =============*/
+
+#panier {
+  padding: 20px;
+  margin-top: 100px;
+
+}
+
+
+/*============= Footer SECTION =============*/
+
+footer {
+  background-color: #40474e;
+  color: white; 
+  padding: 2rem 0;
+  margin-top: 1rem;
+}
+
+footer a {
+  color: white;
+}
+
+footer svg.svg-inline--fa {
+  font-size: 1.6rem;
+  margin: 1.2rem .5rem 0 0;
+}
+
+footer svg.svg-inline--fa:hover {
+  color: #F6BB06!important
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/

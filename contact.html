@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/fixed.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/_query.css">
+
+    <title>Fast Sandwich</title>
+</head>
+<!-- NOTE  data-spy = mise à jour des liens de navigation avec le scroll -->
+<body data-spy="scroll" data-target="#navbarResponsive">
+   <!-- Debut section Accueil -->
+   <div id="accueil">
+       
+   <!-- SECTION   Navigation -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+      <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+         <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+               <a class="nav-link" href="sandwich.html">Sandwichs</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="salade.html">Salades</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="boisson.html">Boissons</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="dessert.html" >Desserts</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+         </ul>
+         <ul class="navbar-nav ml-auto row-fluid">
+            <span style="font-size: 2em; color: blue;">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-user-alt fas-x1"></i></a>
+                </li>
+            </span>
+            <span style="font-size: 2em; color: Tomato;">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-shopping-cart fas-x1"></i></a>
+                </li>
+            </span>
+        </ul>
+      </div>
+   </nav>
+   </div><!-- Fin Navigation -->
+
+</div><!-- Fin section Accueil  -->
+
+
+<!--- SECTION  Debut section Contact -->
+<div id="contact">
+
+    <div class="container">
+        <div class="row mx-auto">
+            <div class="col-12"><img src="images/contact.png" class="img-fluid mx-auto image d-block" alt=""></div>
+        </div>
+    </div>
+
+</div>
+<!--- Fin section Contact -->
+
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-header bg-primary text-white"><i class="fa fa-envelope"></i> Contactez nous.
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nom / Prénom</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Entrez votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Addresse Email </label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Entrez votre email" required>
+                            <small id="emailHelp" class="form-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, obcaecati!.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="6" required></textarea>
+                        </div>
+                        <div class="mx-auto">
+                        <button type="submit" class="btn btn-primary text-right">Envoyer</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-4">
+            <div class="card bg-light mb-3">
+                <div class="card-header bg-success text-white text-uppercase"><i class="fa fa-home"></i> Addresse</div>
+                <div class="card-body">
+                    <p>Adresse</p>
+                    <p>Ville</p>
+                    <p>Pays</p>
+                    <p>Email</p>
+                    <p>Tel</p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small mdb-color pt-4 ">
+
+<!-- Footer Liens -->
+<div class="container text-center text-md-left">
+
+    <!-- Footer Liens -->
+    <div class="row text-center text-md-left mt-3 pb-3">
+
+        <!-- Grid Colonne -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Nom/logo societe</h6>
+            <p>Info Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, nulla.</p>
+        </div>
+        <!-- Grid Colonne -->
+
+        <hr class="w-100 clearfix d-md-none">
+
+        <!-- Grid Colonne -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">produits</h6>
+            <p>
+            <a href="#!">Lien 1</a>
+            </p>
+            <p>
+            <a href="#!">Lien 2</a>
+            </p>
+            <p>
+            <a href="#!">Lien 3</a>
+            </p>
+            <p>
+            <a href="#!">Lien 4 Angular</a>
+            </p>
+        </div>
+        <!-- Grid Colonne -->
+
+        <hr class="w-100 clearfix d-md-none">
+
+        <!-- Grid Colonne -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">liens Utiles</h6>
+            <p>
+            <a href="#!">Lien 1</a>
+            </p>
+            <p>
+            <a href="#!">Lien 2</a>
+            </p>
+            <p>
+            <a href="#!">Lien 3</a>
+            </p>
+            <p>
+            <a href="#!">Lien 4</a>
+            </p>
+        </div>
+
+        <!-- Grid Colonne -->
+        <hr class="w-100 clearfix d-md-none">
+
+        <!-- Grid Colonne -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p>
+            <i class="fas fa-home mr-3"></i> Adresse</p>
+            <p>
+            <i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+            <p>
+            <i class="fas fa-phone mr-3"></i>Numéro</p>
+        </div>
+    <!-- Grid colonne -->
+
+    </div>
+    <!-- Footer Liens -->
+
+        <hr>
+
+    <!-- Grid row -->
+    <div class="row d-flex align-items-center">
+
+        <!-- Grid colonne -->
+        <div class="col-md-7 col-lg-8">
+
+            <!--Copyright-->
+            <p class="text-center text-md-left">© 2019 Copyright:
+            
+            </p>
+
+        </div>
+        <!-- Grid colonne -->
+
+        <!-- Grid colonne -->
+        <div class="col-md-5 col-lg-4 ml-lg-0">
+
+            <!-- Social -->
+            <div class="text-center text-md-right">
+            <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                </li>
+                <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                </li>
+                <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                </li>
+                <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                    <i class="fab fa-snapchat"></i>
+                </a>
+                </li>
+            </ul>
+            </div>
+
+        </div>
+        <!-- Grid colonne -->
+
+    </div>
+    <!-- Grid row -->
+
+</div>
+<!-- Footer liens -->
+
+</footer>
+      <!-- Footer -->
+
+
+
+
+
+<!--- Import Script Boostrap -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+<!--- Fin de Script -->
+
+</body>
+</html>
